@@ -1,0 +1,69 @@
+body
+{
+  color: white;
+  background: #c0d3ff;
+}
+
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-color: #fff;
+	height: 100%;
+	width:100%;
+    background-image: linear-gradient(to right top, #FD7EBE, #FF719A, #FF446E, #FF7449, #FFA325, #FFD300);
+	background-size: 600%600%;
+    animation: bgAnimatedGradient 4s infinite linear;
+}
+
+@keyframes bgAnimatedGradient{
+	0%{
+		background-position: 0 85%;
+	}
+	50%{
+		background-position: 100% 20%;
+	}
+	100%{
+		background-position: 0% 85%;
+	}
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading
+{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+label
+{
+  font-size: 14px;
+  color: #62b33a;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: white;
+}
